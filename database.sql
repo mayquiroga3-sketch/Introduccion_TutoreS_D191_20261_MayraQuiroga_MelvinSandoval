@@ -1,0 +1,10 @@
+CREATE TABLE usuarios (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    nombre TEXT,
+    rol TEXT
+);
+
+CREATE TABLE tutorias (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    fecha TEXT
+);
